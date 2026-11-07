@@ -1,5 +1,5 @@
 // Funciona sin internet: guarda la app y sus librerías en el teléfono.
-const CACHE = 'agenda-v1';
+const CACHE = 'agenda-v2';
 const APP = ['./', './index.html', './manifest.json', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
